@@ -1,0 +1,78 @@
+.education{
+    background-color:rgb(204, 214, 237);
+    height:700px;
+}
+
+.education .heading .head{
+    text-align:center;
+    text-shadow: 2px 2px #7b690b;
+    margin-bottom:40px;
+}
+
+span{
+    font-size: 65px;
+    margin-left: 2px;
+    color: rgb(101, 10, 101);
+    font-weight:auto;
+}
+
+.education .container{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.education .container .box{
+    display:flex;
+    flex-direction: row;
+    border-radius: 25px;
+    text-align: center;
+    position: relative;
+    background:rgb(252, 246, 246);
+    margin-top: 20px;
+    overflow:hidden;
+    height: 190px;
+    width: 880px;
+}
+
+.education .container .box:hover{
+    box-shadow: 10px 5px 12px rgba(0,0, 0, 0.3)
+}
+
+.education .container .box .content h3{
+    font-size: 25px;
+    color: #012970;
+    padding-top: 40px;
+    padding-left: 20px;
+    text-align: center;
+    margin-left: 1px;
+    padding-bottom:2px;
+}
+
+.education .container .box .content p{
+    font-size: 25px;
+    text-align: center;
+    padding-top:8px;
+    padding-left: 30px;
+}
+
+.education h4{
+    justify-content: left;
+    padding-top:4px;
+    font-size: 20px;
+    color:rgb(12, 179, 99)
+}
+
+
+ .education .container .box img{
+    object-fit: cover;
+    position: relative;
+    width:300px;
+    height:200px;
+    margin:0px;
+ }
+
+ 
+

@@ -1,0 +1,99 @@
+.contact{
+    background:#d0d5e0;
+    height: 900px;
+}
+
+.contact .heading{
+    font-size:60px;
+    margin:20px;
+    text-align:center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-shadow: 2px 2px black;
+    color:#264904
+}
+
+
+.contact .container {
+    width: 700px;
+    height: 600px;
+    background:#fff;
+    border-radius:10%;
+    padding: 30px;
+    padding-bottom:200px;
+    margin-left:320px;
+    /* box-shadow: 4px 4px rgb(59, 58, 58); */
+}
+
+.contact .container .content{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+} 
+
+.contact .content .formItems{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formItems .field{
+    display:flex;
+    margin: 10px;
+    margin-left:20px;
+    position:relative;
+}
+
+.formItems i{
+    position:absolute;
+    color:rgb(50, 36, 36);
+    font-size:50px;
+    top:20px;
+    left:30px;
+}
+
+.formItems .field input,
+.formItems .message textarea{
+    width:600px;
+    height:2rem;
+    background:#e5ecfb ;
+    border-radius:30px;
+    border: 1px solid rgb(22, 8, 8);
+    padding-left: 90px;
+}
+
+form .message{
+    position:relative;
+    margin-top:8px;
+    margin-left:19px;
+    padding-bottom:5px;
+}
+
+form .message textarea::placeholder{
+    padding-top:30px;
+    color:rgb(98, 91, 91);
+}
+
+.formItems .field input::placeholder,
+.fontItems .message textarea::placeholder{
+    color:rgb(98, 91, 91);
+}
+
+form .button{
+    display:flex;
+    justify-content: center;
+}
+
+.button button{
+    color: #fff;
+    background-color:#24155f;
+    border-radius:20%;
+    padding:10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.button button:active,
+.button button:hover{
+    background-color: #479625;
+    box-shadow:4px 4px #504285;
+}
