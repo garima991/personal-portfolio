@@ -9,7 +9,7 @@ As a B.Tech student who just stepped into the field of web development, this por
 2. Social media links to get in touch
 3. Contact information for anyone interested in reaching out or providing guidance.
 
-Technologies Used 
+# Technologies Used 
 1. HTML5
 2. CSS
 
